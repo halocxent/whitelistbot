@@ -7,20 +7,21 @@ How to use?
 1. go make account in [supabase](https://supabase.com/)
 then go set up free plan (the nano one) then press "sql editor" in left bar
 and paste
-
 ```create table linked_accounts (
   discord_id text primary key,
   roblox_username text not null,
   roblox_userid bigint not null
 ```
-      
 then click run on bottom left or just click ctrl
 
 3. after it if u have shell access paste this
-```git clone https://github.com/halocxent/whitelistbot.git```
-if u dont have shell access dont worry! zip the file and then upload
 
-4. modify the ".env.example" rename it to ".env"
+```
+git clone https://github.com/halocxent/whitelistbot.git
+```
+
+if u dont have shell access dont worry! zip the file and then upload
+5. modify the ".env.example" rename it to ".env"
 replace it with ur real token, id, etc
 how to get it?
 - supabase url you can get it from project settings in leftbar then data api
@@ -29,7 +30,11 @@ how to get it?
 - guild id? you can get it from ur discord server by right clicking the icon then copy server id(make sure ur developer option is true)
 - client id? in [here](https://discord.com/developers/applications) go to oauth2 then copy the client id
 - git token? go to [here](https://github.com/settings/tokens) then generate a new token
-4. type ```npm install``` on shell (if you have shell if u dont have most likely will be installed by the hosting automatically)
+4. type
+  ```
+  npm install
+  ```
+  on shell (if you have shell if u dont have most likely will be installed by the hosting automatically)
 5. create github repo with the exact path and name from env
 6. create [vercel project](https://vercel.com/new) then go deploy the repo u created
 7. if you have any trouble try to contact me in dicord @cxent
