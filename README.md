@@ -1,5 +1,7 @@
 # whitelistbot
 this is the first version that i make i will update it 👍
+# if u have any suggestion or improve feel free to fork
+
 
 How to use?
 1. go make account in [supabase](https://supabase.com/)
