@@ -39,6 +39,7 @@ how to get it?
 6. create github repo with the exact path and name from env
   
 7. create [vercel project](https://vercel.com/new) then go deploy the repo u created
-8. 
+
+
 9. if you have any trouble try to contact me in dicord @cxent
   recommended to deploy with [this host](https://bot-hosting.net/?aff=969877800746123284) or [this one](https://dashboard.katabump.com/auth/login#0d2770)
