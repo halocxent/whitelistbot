@@ -10,3 +10,7 @@ and paste ```create table linked_accounts (
   roblox_userid bigint not null
 );```
 then click run on bottom left or just click ctrl
+
+after it on ur host if u have shell access paste this
+```git clone https://github.com/halocxent/whitelistbot.git```
+if u dont have shell access dont worry! you can download the release package then upload to ur host
