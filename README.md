@@ -1,4 +1,4 @@
-# whitelistbot
+# whitelistbot(Personal/Private Serverside)
 this is the first version that i make i will update it 👍
 #if u have any suggestion or improve feel free to fork
 
