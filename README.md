@@ -16,3 +16,15 @@ then click run on bottom left or just click ctrl
 if u dont have shell access dont worry! you can download the release package then upload to ur host
 
 3. modify the ".env.example" rename it to ".env"
+replace it with ur real token, id, etc
+how to get it?
+- supabase url you can get it from project settings in leftbar then data api
+- supabase service role key you can grab it from project settings in leftbar then api keys
+- discord token you can get it from [here](https://discord.com/developers/applications) click the bot that u already created then in leftbar click bot then reset token if you forget
+- guild id? you can get it from ur discord server by right clicking the icon then copy server id(make sure ur developer option is true)
+- client id? in [here](https://discord.com/developers/applications) go to oauth2 then copy the client id
+- git token? go to [here](https://github.com/settings/tokens) then generate a new token
+4. type ```npm install``` on shell (if you have shell if u dont have most likely will be installed by the hosting automatically)
+5. create github repo with the exact path and name from env
+6. create [vercel project](https://vercel.com/new) then go deploy the repo u created
+7. if you have any trouble try to contact me in dicord @cxent
