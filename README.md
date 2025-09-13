@@ -21,6 +21,7 @@ git clone https://github.com/halocxent/whitelistbot.git
 ```
 
 if u dont have shell access dont worry! zip the file and then upload
+
 4. modify the ".env.example" rename it to ".env"
 replace it with ur real token, id, etc
 how to get it?
