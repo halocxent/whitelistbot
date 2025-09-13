@@ -146,6 +146,3 @@ module.exports = {
       ephemeral: false
     });
 
-    require('./logger')(interaction);
-  }
-};
