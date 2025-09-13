@@ -8,7 +8,7 @@ const octokit = new Octokit({ auth: process.env.GITOKEN })
 
 const owner = 'halocxent' //replace with ur real github username
 const repo = 'coolrepo'  //replace with ur real repo
-const path = '/folder/blabla.json'  //replace with ur real path
+const path = '/api/blabla.json'  //replace with ur real data path
 
 const allowedRoles = ['123', '123']  //replace with ur buyer roles
 
