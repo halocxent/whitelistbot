@@ -1,22 +1,21 @@
 {
-  "name": "bobo bot",
+  "name": "webhoahuha",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "cxent",
   "license": "MIT",
   "dependencies": {
-    "@discordjs/rest": "^2.5.1",
-    "@types/node": "^22.13.11",
     "discord.js": "^14.21.0",
+    "@discordjs/rest": "^2.5.1",
     "dotenv": "^17.2.1",
-    "express": "^5.1.0",
     "node-fetch": "^2.7.0",
     "@supabase/supabase-js": "^2.39.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   }
 }
-
