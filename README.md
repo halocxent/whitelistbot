@@ -1,6 +1,6 @@
 # whitelistbot
 this is the first version that i make i will update it 👍
-# if u have any suggestion or improve feel free to fork
+#if u have any suggestion or improve feel free to fork
 
 
 How to use?
@@ -15,7 +15,7 @@ then click run on bottom left or just click ctrl
 
 3. after it if u have shell access paste this
 ```git clone https://github.com/halocxent/whitelistbot.git```
-if u dont have shell access dont worry! you can download the release package then upload to ur host
+if u dont have shell access dont worry! zip the file and then upload
 
 4. modify the ".env.example" rename it to ".env"
 replace it with ur real token, id, etc
