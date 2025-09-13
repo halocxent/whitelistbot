@@ -9,8 +9,7 @@ client.commands = new Collection()
 
 const commandFiles = [
   './link.js',
-  './fetch.js',
-  './ping.js',
+  './ping.js'
 ]
 
 for (const file of commandFiles) {
@@ -40,7 +39,7 @@ client.once('ready', async () => {
     console.error('Failed to register commands:', error)
   }
 
-  client.user.setActivity('Ationz', { type: 1 })
+  client.user.setActivity('.gg/mangoside', { type: 1 })  //replace with ur guild invite or maybe another thing u want u also can delete if u want to
 })
 
 client.on('interactionCreate', async interaction => {
