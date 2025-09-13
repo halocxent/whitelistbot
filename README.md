@@ -1,2 +1,5 @@
 # whitelistbot
-## a discord whitelist bot made for roblox serverside
+how to use?
+firstly use ```git clone https://github.com/halocxent/whitelistbot.git```
+then go make env
+
