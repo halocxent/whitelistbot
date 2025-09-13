@@ -15,8 +15,4 @@ then click run on bottom left or just click ctrl
 ```git clone https://github.com/halocxent/whitelistbot.git```
 if u dont have shell access dont worry! you can download the release package then upload to ur host
 
-3. make .env
-DISCORD_TOKEN="ur token"
-DISCORD_CLIENT_ID=ur client
-GITOKEN=ur token here
-SUPABASE_KEY="ur supabase service role key here"
+3. modify the ".env.example" rename it to ".env"
