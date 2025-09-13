@@ -2,12 +2,12 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const supabase = require('./supabase');
 
 const tierRoles = {
-  standard: '1396192226362785963',
-  premium: '1396191850175398050',
-  ultimate: '1396192635173212401'
+  standard: '123',
+  premium: '123',
+  ultimate: '123'// replace those 3 with ur discord roles id u want
 };
 
-const buyerRoleId = '1396192635173212401';
+const buyerRoleId = '123'; //optional
 
 module.exports = {
   data: new SlashCommandBuilder()
