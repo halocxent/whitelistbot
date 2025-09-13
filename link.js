@@ -10,6 +10,8 @@ const owner = 'halocxent' //replace with ur real github username
 const repo = 'coolrepo'  //replace with ur real repo
 const path = '/folder/blabla.json'  //replace with ur real path
 
+const allowedRoles = ['123', '123']  //replace with ur buyer roles
+
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('link')
@@ -21,6 +23,15 @@ module.exports = {
     ),
 
   async execute(interaction) {
+    const memberRoles = interaction.member.roles.cache.map(role => role.id)
+    if (!allowedRoles.some(role => memberRoles.includes(role))) {
+      const embed = new EmbedBuilder()
+        .setTitle('❌ Access Denied')
+        .setDescription('You do not have the required role to use this command.')
+        .setColor(0xFF0000)
+      return interaction.reply({ embeds: [embed], ephemeral: true })
+    }
+
     const username = interaction.options.getString('username')
     const discordId = interaction.user.id
 
