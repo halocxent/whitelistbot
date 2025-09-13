@@ -1,3 +1,4 @@
+//warning this command is not complete use it carefully
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const supabase = require('./supabase');
 
